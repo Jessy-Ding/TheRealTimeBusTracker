@@ -30,5 +30,8 @@ async function fetchVehiclePositions() {
     }
 }
 
-setInterval(fetchVehiclePositions, 10000); // Change your refresh rate here
 fetchVehiclePositions();
+
+setTimeout(function() {
+    window.location.reload();
+}, 10000); // Refresh the page every 10 seconds
