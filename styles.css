@@ -1,0 +1,11 @@
+body { margin: 0; padding: 0; }
+
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+.marker {
+    background-color: #ff0000; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
